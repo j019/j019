@@ -1,7 +1,6 @@
 - 👋 Hi, I’m Jatin
 - 👀 I’m interested in Data Engineer & Data Analyst Roles
 - 🌱 I’m currently learning Big Data Analytics From CDAC ATC Pune
-- 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me via email : 20jatinvalecha@gmail.com
 
 <!---
