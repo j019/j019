@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jatin Valecha — Data & Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1a1a;
+      --ink-soft: #555;
+      --ink-muted: #999;
+      --border: #e8e8e8;
+      --surface: #f9f9f8;
+      --accent: #1a1a1a;
+      --tag-bg: #f0f0ee;
+      --white: #fff;
+      --radius: 10px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--ink);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    .nav-logo {
+      font-family: 'DM Mono', monospace;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 13px;
+      color: var(--ink-soft);
+      text-decoration: none;
+      letter-spacing: 0.01em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--ink); }
+
+    /* LAYOUT */
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section {
+      padding: 5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    section:last-of-type { border-bottom: none; }
+
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      color: var(--ink-muted);
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 300;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    h1 strong { font-weight: 500; }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    p { color: var(--ink-soft); }
+
+    /* HERO */
+    #hero { padding: 6rem 0 5rem; }
+    .hero-tagline {
+      margin-top: 1.5rem;
+      font-size: 1.05rem;
+      color: var(--ink-soft);
+      max-width: 520px;
+      font-weight: 300;
+    }
+    .hero-meta {
+      margin-top: 1rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 12px;
+      color: var(--ink-muted);
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .hero-meta span::before { content: '↗ '; }
+    .hero-cta {
+      margin-top: 2.5rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: 1px solid transparent;
+    }
+    .btn-primary {
+      background: var(--ink);
+      color: #fff;
+    }
+    .btn-primary:hover { background: #333; }
+    .btn-outline {
+      border-color: var(--border);
+      color: var(--ink-soft);
+      background: transparent;
+    }
+    .btn-outline:hover { border-color: #bbb; color: var(--ink); }
+
+    /* ABOUT */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+    @media (max-width: 600px) { .about-grid { grid-template-columns: 1fr; } }
+    .about-text p + p { margin-top: 1rem; }
+    .about-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .stat-item {
+      padding: 1.25rem;
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--ink-muted);
+      margin-top: 4px;
+    }
+
+    /* SKILLS */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .skill-group {
+      padding: 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+    }
+    .skill-group-title {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: var(--ink-muted);
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      font-size: 12px;
+      padding: 3px 10px;
+      background: var(--tag-bg);
+      border-radius: 4px;
+      color: var(--ink-soft);
+    }
+
+    /* EXPERIENCE */
+    .exp-list { display: flex; flex-direction: column; gap: 2rem; }
+    .exp-item { display: grid; grid-template-columns: 140px 1fr; gap: 1.5rem; }
+    @media (max-width: 540px) { .exp-item { grid-template-columns: 1fr; gap: 0.5rem; } }
+    .exp-period {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--ink-muted);
+      padding-top: 3px;
+      line-height: 1.5;
+    }
+    .exp-role { font-weight: 500; font-size: 15px; color: var(--ink); }
+    .exp-company { font-size: 13px; color: var(--ink-muted); margin-bottom: 0.5rem; }
+    .exp-points { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+    .exp-points li {
+      font-size: 13.5px;
+      color: var(--ink-soft);
+      padding-left: 1rem;
+      position: relative;
+    }
+    .exp-points li::before {
+      content: '–';
+      position: absolute;
+      left: 0;
+      color: var(--ink-muted);
+    }
+
+    /* PROJECTS */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .project-card {
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      transition: border-color 0.2s;
+    }
+    .project-card:hover { border-color: #bbb; }
+    .project-title { font-weight: 500; font-size: 15px; margin-bottom: 0.4rem; }
+    .project-desc { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 1rem; }
+    .project-stack { display: flex; flex-wrap: wrap; gap: 5px; }
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12px;
+      color: var(--ink-muted);
+      text-decoration: none;
+      margin-top: 1rem;
+      font-family: 'DM Mono', monospace;
+    }
+    .project-link:hover { color: var(--ink); }
+
+    /* CERTIFICATIONS */
+    .cert-list { display: flex; flex-direction: column; gap: 1rem; }
+    .cert-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      gap: 1rem;
+    }
+    .cert-name { font-weight: 500; font-size: 14px; }
+    .cert-issuer { font-size: 12px; color: var(--ink-muted); margin-top: 2px; }
+    .cert-badge {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      color: var(--ink-muted);
+      border: 1px solid var(--border);
+      padding: 3px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    /* CONTACT */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .contact-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 1rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--ink);
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .contact-card:hover { border-color: #bbb; background: var(--surface); }
+    .contact-icon {
+      width: 36px;
+      height: 36px;
+      background: var(--tag-bg);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .contact-icon svg { width: 18px; height: 18px; stroke: var(--ink-soft); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+    .contact-label { font-size: 11px; color: var(--ink-muted); }
+    .contact-value { font-size: 13px; font-weight: 500; }
+
+    /* FOOTER */
+    footer {
+      padding: 2rem;
+      text-align: center;
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--ink-muted);
+      border-top: 1px solid var(--border);
+    }
+
+    /* DIVIDER */
+    .exp-divider { border: none; border-top: 1px solid var(--border); margin: 0; }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up { animation: fadeUp 0.5s ease both; }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+    .delay-4 { animation-delay: 0.4s; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#">jv.</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <h1 class="fade-up">Hi, I'm <strong>Jatin Valecha</strong><br>Data & Software Engineer</h1>
+      <p class="hero-tagline fade-up delay-1">
+        Building reliable data pipelines and scalable software. 3.5+ years of experience turning raw data into business value — and sharing the journey openly.
+      </p>
+      <div class="hero-meta fade-up delay-2">
+        <span>India · Open to Relocate</span>
+        <span>Data Engineering</span>
+        <span>Oracle Cloud Certified</span>
+      </div>
+      <div class="hero-cta fade-up delay-3">
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <a class="btn btn-outline" href="https://linkedin.com/in/jatin-valecha" target="_blank">LinkedIn</a>
+        <a class="btn btn-outline" href="https://github.com/j019" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">About</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a Data Engineer and Software Engineer with 3.5+ years of experience designing pipelines, building analytics infrastructure, and engineering backend systems.
+          </p>
+          <p style="margin-top: 1rem;">
+            Most recently at <strong style="color: var(--ink); font-weight: 500;">Infinite Computer Solutions</strong>, progressing from Software Engineer to Associate Data Analyst — working across PySpark, Spark Structured Streaming, Apache Airflow, HDFS, and Oracle Cloud.
+          </p>
+          <p style="margin-top: 1rem;">
+            I believe in learning in public — documenting wins, failures, and everything in between. You'll find that on my LinkedIn feed.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-number">3.5+</div>
+            <div class="stat-label">Years of experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Oracle Cloud certifications</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Pipelines debugged at 2am</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">Skills</p>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <p class="skill-group-title">Data Engineering</p>
+          <div class="tags">
+            <span class="tag">PySpark</span>
+            <span class="tag">Spark Streaming</span>
+            <span class="tag">Apache Airflow</span>
+            <span class="tag">HDFS</span>
+            <span class="tag">Kafka</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Cloud & Databases</p>
+          <div class="tags">
+            <span class="tag">Oracle Cloud</span>
+            <span class="tag">OCI</span>
+            <span class="tag">SQL</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Oracle DB</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Languages</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Java</span>
+            <span class="tag">Shell</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Tools & Libraries</p>
+          <div class="tags">
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Git</span>
+            <span class="tag">Linux</span>
+            <span class="tag">ReportLab</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <p class="section-label">Experience</p>
+      <div class="exp-list">
+
+        <div class="exp-item">
+          <div class="exp-period">Oct 2024 – Oct 2025<br>Noida, India</div>
+          <div>
+            <div class="exp-role">Associate Data Analyst</div>
+            <div class="exp-company">Infinite Computer Solutions</div>
+            <ul class="exp-points">
+              <li>Designed and maintained PySpark batch and streaming pipelines on HDFS</li>
+              <li>Automated workflow orchestration using Apache Airflow DAGs</li>
+              <li>Reduced pipeline latency by optimising Spark job configurations</li>
+              <li>Collaborated on Oracle Cloud AI Vector Search and Data Science modules</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="exp-divider" />
+
+        <div class="exp-item">
+          <div class="exp-period">Jun 2022 – Sept 2024</div>
+          <div>
+            <div class="exp-role">Software Engineer</div>
+            <div class="exp-company">Infinite Computer Solutions</div>
+            <ul class="exp-points">
+              <li>Built backend components and REST APIs for enterprise applications</li>
+              <li>Performed data migration and schema management tasks using SQL</li>
+              <li>Contributed to QA processes and internal tooling</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">Projects</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-title">Spark Streaming Pipeline</div>
+          <p class="project-desc">Real-time data ingestion pipeline using Spark Structured Streaming, processing events from Kafka into HDFS with fault-tolerant checkpointing.</p>
+          <div class="project-stack">
+            <span class="tag">PySpark</span>
+            <span class="tag">Kafka</span>
+            <span class="tag">HDFS</span>
+            <span class="tag">Airflow</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-title">Titanic EDA — Pandas Analysis</div>
+          <p class="project-desc">Exploratory data analysis on the Titanic dataset covering filtering, aggregation, missing value handling, and survival rate insights using Pandas.</p>
+          <div class="project-stack">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Jupyter</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="container">
+      <p class="section-label">Certifications</p>
+      <div class="cert-list">
+        <div class="cert-item">
+          <div>
+            <div class="cert-name">Oracle Cloud Infrastructure — AI Vector Search</div>
+            <div class="cert-issuer">Oracle · 2024</div>
+          </div>
+          <span class="cert-badge">Oracle Certified</span>
+        </div>
+        <div class="cert-item">
+          <div>
+            <div class="cert-name">Oracle Cloud Infrastructure — Data Science</div>
+            <div class="cert-issuer">Oracle · 2024</div>
+          </div>
+          <span class="cert-badge">Oracle Certified</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Contact</p>
+      <h2 style="margin-bottom: 0.5rem;">Let's connect</h2>
+      <p style="margin-bottom: 2rem; max-width: 420px;">Open to new opportunities, collaborations, or just a good conversation about data engineering.</p>
+      <div class="contact-grid">
+
+        <a class="contact-card" href="https://linkedin.com/in/jatin-valecha" target="_blank">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">Jatin Valecha</div>
+          </div>
+        </a>
+
+        <a class="contact-card" href="https://github.com/j019" target="_blank">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">j019</div>
+          </div>
+        </a>
+
+        <a class="contact-card" href="mailto:jatinvalecha@email.com">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">Say hello</div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Jatin Valecha · Built with GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
