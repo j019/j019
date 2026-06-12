@@ -106,50 +106,6 @@ Hands-on with **Python**, **PySpark**, **Apache Kafka**, **Apache Airflow**, **S
 
 ---
 
-## 🚀 Featured Projects
-
-<details>
-<summary><b>📊 Sales & Operations Analytics Dashboard</b></summary>
-
-<br/>
-
-End-to-end analytics platform ingesting multi-source operational data, modelling it into a reporting data mart, and surfacing KPIs through interactive Power BI dashboards — enabling stakeholders to move from reactive reporting to proactive planning.
-
-| Attribute | Detail |
-|---|---|
-| **Stack** | Python (Pandas, NumPy, Matplotlib) · SQL · Power BI · Oracle Cloud (OCI) |
-| **Scale** | Multi-system ingestion; 12-month rolling KPI computation |
-| **Performance** | Automated weekly reconciliation; significantly reduced manual reporting cycles |
-| **Data Quality** | Discrepancy flagging between source systems; lineage documentation |
-| **Impact** | Seasonal demand patterns and revenue anomalies surfaced directly into planning decisions |
-| **Repository** | [github.com/j019](https://github.com/j019) |
-
-Built ETL pipelines to extract from relational databases, cleanse inconsistencies, and load structured output into a reporting mart. Authored SQL with window functions and CTEs to compute rolling KPIs including revenue trends, churn rates, and team-level performance metrics. Performed EDA using Python to identify data anomalies and seasonal demand patterns, directly informing inventory and resource planning decisions. Automated a weekly reconciliation report that flagged discrepancies between source systems, improving data reliability for downstream consumers.
-
-</details>
-
-<details>
-<summary><b>📋 Advertisement Review System — Reged Trax</b></summary>
-
-<br/>
-
-A production-grade content review platform managing multi-media publication workflows across audio, video, text, and image assets. Engineered for high availability and minimal manual intervention through configurable rule engines and audit workflows.
-
-| Attribute | Detail |
-|---|---|
-| **Stack** | Java · Spring Boot · REST APIs · SQL · Agile |
-| **Scale** | Multi-format asset management across full publication workflows |
-| **Performance** | 30% reduction in audit response times; 99.9% uptime in production |
-| **Automation** | 40% reduction in manual verification effort via configurable rule engines |
-| **Impact** | Streamlined content compliance operations at enterprise scale |
-| **Repository** | [github.com/j019](https://github.com/j019) |
-
-Developed a content review platform managing audio, video, text, and image assets across multi-media publication workflows. Engineered configurable audit workflows and rule engines that cut manual verification effort by 40% and reduced audit response times by 30%. Maintained 99.9% uptime through careful Agile sprint management and disciplined production rollout practices.
-
-</details>
-
----
-
 ## 💼 Experience
 
 ### Software Engineer → Associate Data Analyst
