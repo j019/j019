@@ -1,14 +1,300 @@
-# 💫 About Me:
-I'm a Data Engineer and Software Engineer with 3.5+ years of experience designing pipelines, building analytics infrastructure, and engineering backend systems.<br><br>Most recently at Infinite Computer Solutions, progressing from Software Engineer to Associate Data Analyst — working across PySpark, Spark Structured Streaming, Apache Airflow, HDFS, and Oracle Cloud.<br><br>I believe in learning in public — documenting wins, failures, and everything in between. You'll find that on my LinkedIn feed.
+<div align="center">
 
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Jatin%20Valecha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%E2%80%A2%20Analytics%20Engineer%20%E2%80%A2%20AI%20Data%20Pipelines&descAlignY=58&descSize=18)
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jatin-valecha/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:20jatinvalecha@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-24292E?style=flat&logo=githubpages&logoColor=white)](https://jatinvalecha.netlify.app/)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=800&color=7C3AED&center=true&vCenter=true&multiline=false&width=700&lines=Designing+pipelines+that+make+data+trustworthy.;3.5%2B+years+across+backend+engineering+%26+data.;PySpark+%7C+Kafka+%7C+Airflow+%7C+Oracle+Cloud+%7C+Power+BI.;Building+in+public+%E2%80%94+one+commit+at+a+time.)](https://git.io/typing-svg)
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
+<br/>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=j019&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=j019&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=j019&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![MCA](https://img.shields.io/badge/MCA-VIPS%2C%20Delhi-7C3AED?style=flat-square&logo=graduation-cap&logoColor=white)
+![BSc IT](https://img.shields.io/badge/BSc%20IT-BFIT%20Campus-6D28D9?style=flat-square&logo=book-open&logoColor=white)
+![Location](https://img.shields.io/badge/📍-Pune%2C%20India-4C1D95?style=flat-square)
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-jatinvalecha.netlify.app-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://jatinvalecha.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jatin--valecha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jatin-valecha)
+[![Email](https://img.shields.io/badge/Gmail-20jatinvalecha%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:20jatinvalecha@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-j019-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/j019)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=j019&style=flat-square&color=7C3AED&label=Profile+Views)
+![Followers](https://img.shields.io/github/followers/j019?style=flat-square&color=6D28D9&label=Followers)
+![Stars](https://img.shields.io/github/stars/j019?style=flat-square&color=4C1D95&label=Total+Stars)
+
+</div>
+
+---
+
+## 🧬 About
+
+```yaml
+name         : Jatin Valecha
+role         : Data Engineer / Analytics Engineer
+experience   : 3.5+ years
+location     : Pune, India (Open to Relocate)
+background   : Software Engineer → Associate Data Analyst → Data Engineering
+```
+
+Data Engineer with 3.5 years of progressive experience designing ETL pipelines, building analytical reporting systems, and delivering backend services at scale. Began as a Software Engineer (Java, Spring Boot) and transitioned into data engineering — bringing a strong software engineering foundation to pipeline reliability, SQL optimisation, and data quality.
+
+Hands-on with **Python**, **PySpark**, **Apache Kafka**, **Apache Airflow**, **Spark Structured Streaming**, and **HDFS**. Certified in Oracle Cloud (Generative AI & Data Science), with practical experience in RAG architectures and LangChain. Building a public data engineering portfolio and sharing progress on LinkedIn.
+
+**Open To:** Data Engineering · Analytics Engineering · AI-Data Pipelines · Senior Data Analyst roles
+
+---
+
+## 🛠 Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+
+**Data Engineering & Processing**
+
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=flat-square&logo=apachekafka)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=Apache%20Airflow&logoColor=white)
+![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black)
+![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
+
+**Analytics & BI**
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=flat-square&logo=Matplotlib&logoColor=black)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+**Databases**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white)
+![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat-square&logo=apache-cassandra&logoColor=white)
+
+**Cloud, DevOps & Tooling**
+
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2671E5?style=flat-square&logo=githubactions&logoColor=white)
+
+---
+
+## 🤖 AI / Data Science Expertise
+
+| Domain | Proficiency | Details |
+|---|---|---|
+| RAG Architectures | ████████░░ Advanced | LangChain, vector search, document retrieval pipelines |
+| LLM / Generative AI | ███████░░░ Proficient | Oracle OCI GenAI, prompt engineering, AI-data integrations |
+| Oracle AI Vector Search | ████████░░ Advanced | Certified — semantic search, embedding pipelines |
+| Exploratory Data Analysis | █████████░ Expert | Pandas, NumPy, Matplotlib — anomaly detection, trend surfacing |
+| ML Foundations | ██████░░░░ Working | scikit-learn, SciPy; applied to analytics & forecasting tasks |
+| Data Warehousing | █████████░ Expert | Star/snowflake schemas, data marts, ETL design patterns |
+| Stream Processing | ████████░░ Advanced | Spark Structured Streaming, Kafka consumer/producer pipelines |
+
+---
+
+## 🚀 Featured Projects
+
+<details>
+<summary><b>📊 Sales & Operations Analytics Dashboard</b></summary>
+
+<br/>
+
+End-to-end analytics platform ingesting multi-source operational data, modelling it into a reporting data mart, and surfacing KPIs through interactive Power BI dashboards — enabling stakeholders to move from reactive reporting to proactive planning.
+
+| Attribute | Detail |
+|---|---|
+| **Stack** | Python (Pandas, NumPy, Matplotlib) · SQL · Power BI · Oracle Cloud (OCI) |
+| **Scale** | Multi-system ingestion; 12-month rolling KPI computation |
+| **Performance** | Automated weekly reconciliation; significantly reduced manual reporting cycles |
+| **Data Quality** | Discrepancy flagging between source systems; lineage documentation |
+| **Impact** | Seasonal demand patterns and revenue anomalies surfaced directly into planning decisions |
+| **Repository** | [github.com/j019](https://github.com/j019) |
+
+Built ETL pipelines to extract from relational databases, cleanse inconsistencies, and load structured output into a reporting mart. Authored SQL with window functions and CTEs to compute rolling KPIs including revenue trends, churn rates, and team-level performance metrics. Performed EDA using Python to identify data anomalies and seasonal demand patterns, directly informing inventory and resource planning decisions. Automated a weekly reconciliation report that flagged discrepancies between source systems, improving data reliability for downstream consumers.
+
+</details>
+
+<details>
+<summary><b>📋 Advertisement Review System — Reged Trax</b></summary>
+
+<br/>
+
+A production-grade content review platform managing multi-media publication workflows across audio, video, text, and image assets. Engineered for high availability and minimal manual intervention through configurable rule engines and audit workflows.
+
+| Attribute | Detail |
+|---|---|
+| **Stack** | Java · Spring Boot · REST APIs · SQL · Agile |
+| **Scale** | Multi-format asset management across full publication workflows |
+| **Performance** | 30% reduction in audit response times; 99.9% uptime in production |
+| **Automation** | 40% reduction in manual verification effort via configurable rule engines |
+| **Impact** | Streamlined content compliance operations at enterprise scale |
+| **Repository** | [github.com/j019](https://github.com/j019) |
+
+Developed a content review platform managing audio, video, text, and image assets across multi-media publication workflows. Engineered configurable audit workflows and rule engines that cut manual verification effort by 40% and reduced audit response times by 30%. Maintained 99.9% uptime through careful Agile sprint management and disciplined production rollout practices.
+
+</details>
+
+---
+
+## 💼 Experience
+
+### Software Engineer → Associate Data Analyst
+**Infinite Computer Solutions** · Noida, India · Jun 2022 – Oct 2025 · 3.5 Years
+
+Progressed internally from backend engineering into data — taking ownership of ETL pipelines, analytical dashboards, and data quality processes while retaining strong software engineering instincts.
+
+**Software Engineer** *(Jun 2022 – Nov 2024)*
+- Designed and shipped production-grade applications using Java and Spring Boot, covering the full cycle from requirements through deployment
+- Cut SQL query response times by **30%** through systematic indexing strategies, execution plan analysis, and query refactoring
+- Raised unit test coverage by **35%** by introducing structured JUnit test suites, meaningfully reducing post-release defects
+- Collaborated with product, QA, and DevOps teams across all SDLC phases — sprint planning, peer reviews, knowledge-sharing sessions
+
+**Associate Data Analyst** *(Dec 2024 – Oct 2025)*
+- Architected and maintained end-to-end ETL pipelines ingesting, cleansing, and transforming data from disparate source systems into a centralised data warehouse
+- Wrote advanced SQL (window functions, CTEs, multi-level joins) to aggregate and model large datasets, forming the backbone of weekly and monthly business reports
+- Built **Power BI dashboards** enabling stakeholder self-serve KPI monitoring, significantly reducing ad hoc reporting requests
+- Conducted EDA using Python (Pandas, NumPy, Matplotlib) — surfacing seasonal trends, anomalies, and revenue patterns that fed directly into planning decisions
+- Maintained thorough data dictionaries, pipeline documentation, and lineage records — laying groundwork for data governance and audit readiness
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![PySpark](https://img.shields.io/badge/PySpark-FDEE21?style=flat-square&logo=apachespark&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=Apache%20Airflow&logoColor=white)
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+
+| Recognition | Details |
+|---|---|
+| SQL Performance Optimisation | Reduced query response times by 30% via indexing & execution plan refactoring |
+| Test Coverage Leadership | Raised unit test coverage by 35%, measurably reducing production defects |
+| ETL Pipeline Ownership | Sole owner of end-to-end data pipelines across ingestion, transformation, and delivery |
+| 99.9% Uptime Delivery | Maintained production system reliability through disciplined Agile sprint management |
+| Data Governance Contributor | Built data dictionaries, lineage records, and documentation for audit readiness |
+| Public Portfolio Builder | Actively building and sharing data engineering projects in public |
+
+</div>
+
+---
+
+## 📜 Certifications
+
+**Oracle**
+
+![Oracle AI Vector Search](https://img.shields.io/badge/Oracle%20AI%20Vector%20Search-Professional%202025-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![OCI Data Science](https://img.shields.io/badge/OCI%20Data%20Science-Professional-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.shion.dev/api?username=j019&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=j019&theme=dark&hide_border=false)
+
+![Top Languages](https://github-readme-stats.shion.dev/api/top-langs/?username=j019&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+</div>
+
+---
+
+## 🏅 GitHub Trophies
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=j019&theme=darkhub&no-frame=false&no-bg=true&margin-w=4)
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=j019&theme=react-dark&bg_color=0d1117&color=7C3AED&line=6D28D9&point=ffffff&area=true&hide_border=true)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+![Snake Animation](https://raw.githubusercontent.com/j019/j019/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
+## 🎯 Current Focus
+
+```yaml
+learning:
+  - Apache Flink for stream processing
+  - dbt (data build tool) for analytics engineering
+  - Delta Lake and data lakehouse architectures
+
+building:
+  - Public data engineering portfolio on GitHub
+  - End-to-end pipeline projects with real datasets
+  - RAG-based AI-data pipeline prototypes
+
+exploring:
+  - Apache Iceberg for open table formats
+  - Vector databases (Weaviate, Qdrant)
+  - DataOps and CI/CD for data pipelines
+
+open_to:
+  - Data Engineering roles (India / Remote)
+  - Analytics Engineering positions
+  - AI-Data pipeline engineering
+  - Open source data infrastructure contributions
+```
+
+---
+
+## 🤝 Connect
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-20jatinvalecha%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:20jatinvalecha@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jatin--valecha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jatin-valecha)
+[![GitHub](https://img.shields.io/badge/GitHub-j019-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/j019)
+[![Portfolio](https://img.shields.io/badge/Portfolio-jatinvalecha.netlify.app-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://jatinvalecha.netlify.app/)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Good data engineering is invisible — the pipeline runs, the numbers are right, and nobody has to ask why."*
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer)
+
+</div>
