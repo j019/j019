@@ -1,32 +1,24 @@
 ---
 layout: default
+title: Jatin Valecha — Data Engineer
 ---
-<div align="center">
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Jatin%20Valecha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%E2%80%A2%20Analytics%20Engineer%20%E2%80%A2%20AI%20Data%20Pipelines&descAlignY=58&descSize=18)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=800&color=7C3AED&center=true&vCenter=true&multiline=false&width=700&lines=Designing+pipelines+that+make+data+trustworthy.;3.5%2B+years+across+backend+engineering+%26+data.;PySpark+%7C+Kafka+%7C+Airflow+%7C+Oracle+Cloud+%7C+Power+BI.;Building+in+public+%E2%80%94+one+commit+at+a+time.)](https://git.io/typing-svg)
 
-<br/>
-
 ![MCA](https://img.shields.io/badge/MCA-VIPS%2C%20Delhi-7C3AED?style=flat-square&logo=graduation-cap&logoColor=white)
 ![BSc IT](https://img.shields.io/badge/BSc%20IT-BFIT%20Campus-6D28D9?style=flat-square&logo=book-open&logoColor=white)
-![Location](https://img.shields.io/badge/📍-Pune%2C%20India-4C1D95?style=flat-square)
-
-<br/>
+![Location](https://img.shields.io/badge/Location-Pune%2C%20India-4C1D95?style=flat-square)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-jatinvalecha.netlify.app-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://jatinvalecha.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jatin--valecha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jatin-valecha)
 [![Email](https://img.shields.io/badge/Gmail-20jatinvalecha%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:20jatinvalecha@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-j019-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/j019)
 
-<br/>
-
 ![Profile Views](https://komarev.com/ghpvc/?username=j019&style=flat-square&color=7C3AED&label=Profile+Views)
 ![Followers](https://img.shields.io/github/followers/j019?style=flat-square&color=6D28D9&label=Followers)
 ![Stars](https://img.shields.io/github/stars/j019?style=flat-square&color=4C1D95&label=Total+Stars)
-
-</div>
 
 ---
 
@@ -86,7 +78,7 @@ Hands-on with **Python**, **PySpark**, **Apache Kafka**, **Apache Airflow**, **S
 
 ![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
 ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white)
@@ -109,6 +101,46 @@ Hands-on with **Python**, **PySpark**, **Apache Kafka**, **Apache Airflow**, **S
 
 ---
 
+## 🚀 Featured Projects
+
+<details>
+<summary><b>📊 Sales & Operations Analytics Dashboard</b></summary>
+
+End-to-end analytics platform ingesting multi-source operational data, modelling it into a reporting data mart, and surfacing KPIs through interactive Power BI dashboards.
+
+| Attribute | Detail |
+|---|---|
+| **Stack** | Python (Pandas, NumPy, Matplotlib) · SQL · Power BI · Oracle Cloud (OCI) |
+| **Scale** | Multi-system ingestion; 12-month rolling KPI computation |
+| **Performance** | Automated weekly reconciliation; reduced manual reporting cycles |
+| **Data Quality** | Discrepancy flagging between source systems; lineage documentation |
+| **Impact** | Seasonal demand patterns and revenue anomalies surfaced into planning decisions |
+| **Repository** | [github.com/j019](https://github.com/j019) |
+
+Built ETL pipelines to extract from relational databases, cleanse inconsistencies, and load structured output into a reporting mart. Authored SQL with window functions and CTEs to compute rolling KPIs. Performed EDA using Python to identify data anomalies and seasonal demand patterns. Automated a weekly reconciliation report that flagged discrepancies between source systems.
+
+</details>
+
+<details>
+<summary><b>📋 Advertisement Review System — Reged Trax</b></summary>
+
+A production-grade content review platform managing multi-media publication workflows across audio, video, text, and image assets.
+
+| Attribute | Detail |
+|---|---|
+| **Stack** | Java · Spring Boot · REST APIs · SQL · Agile |
+| **Scale** | Multi-format asset management across full publication workflows |
+| **Performance** | 30% reduction in audit response times; 99.9% uptime in production |
+| **Automation** | 40% reduction in manual verification effort via configurable rule engines |
+| **Impact** | Streamlined content compliance operations at enterprise scale |
+| **Repository** | [github.com/j019](https://github.com/j019) |
+
+Developed a content review platform managing audio, video, text, and image assets. Engineered configurable audit workflows and rule engines that cut manual verification effort by 40% and reduced audit response times by 30%. Maintained 99.9% uptime through disciplined Agile sprint management.
+
+</details>
+
+---
+
 ## 💼 Experience
 
 ### Software Engineer → Associate Data Analyst
@@ -117,17 +149,17 @@ Hands-on with **Python**, **PySpark**, **Apache Kafka**, **Apache Airflow**, **S
 Progressed internally from backend engineering into data — taking ownership of ETL pipelines, analytical dashboards, and data quality processes while retaining strong software engineering instincts.
 
 **Software Engineer** *(Jun 2022 – Nov 2024)*
-- Designed and shipped production-grade applications using Java and Spring Boot, covering the full cycle from requirements through deployment
-- Cut SQL query response times by **30%** through systematic indexing strategies, execution plan analysis, and query refactoring
-- Raised unit test coverage by **35%** by introducing structured JUnit test suites, meaningfully reducing post-release defects
-- Collaborated with product, QA, and DevOps teams across all SDLC phases — sprint planning, peer reviews, knowledge-sharing sessions
+- Designed and shipped production-grade applications using Java and Spring Boot
+- Cut SQL query response times by **30%** through indexing strategies and execution plan analysis
+- Raised unit test coverage by **35%** by introducing structured JUnit test suites
+- Collaborated with product, QA, and DevOps teams across all SDLC phases
 
 **Associate Data Analyst** *(Dec 2024 – Oct 2025)*
-- Architected and maintained end-to-end ETL pipelines ingesting, cleansing, and transforming data from disparate source systems into a centralised data warehouse
-- Wrote advanced SQL (window functions, CTEs, multi-level joins) to aggregate and model large datasets, forming the backbone of weekly and monthly business reports
-- Built **Power BI dashboards** enabling stakeholder self-serve KPI monitoring, significantly reducing ad hoc reporting requests
-- Conducted EDA using Python (Pandas, NumPy, Matplotlib) — surfacing seasonal trends, anomalies, and revenue patterns that fed directly into planning decisions
-- Maintained thorough data dictionaries, pipeline documentation, and lineage records — laying groundwork for data governance and audit readiness
+- Architected and maintained end-to-end ETL pipelines ingesting data into a centralised data warehouse
+- Wrote advanced SQL (window functions, CTEs, multi-level joins) to model large datasets for business reports
+- Built **Power BI dashboards** enabling stakeholder self-serve KPI monitoring
+- Conducted EDA using Python surfacing seasonal trends, anomalies, and revenue patterns
+- Maintained data dictionaries, pipeline documentation, and lineage records for audit readiness
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![PySpark](https://img.shields.io/badge/PySpark-FDEE21?style=flat-square&logo=apachespark&logoColor=black)
@@ -142,8 +174,6 @@ Progressed internally from backend engineering into data — taking ownership of
 
 ## 🏆 Achievements
 
-<div align="center">
-
 | Recognition | Details |
 |---|---|
 | SQL Performance Optimisation | Reduced query response times by 30% via indexing & execution plan refactoring |
@@ -152,8 +182,6 @@ Progressed internally from backend engineering into data — taking ownership of
 | 99.9% Uptime Delivery | Maintained production system reliability through disciplined Agile sprint management |
 | Data Governance Contributor | Built data dictionaries, lineage records, and documentation for audit readiness |
 | Public Portfolio Builder | Actively building and sharing data engineering projects in public |
-
-</div>
 
 ---
 
@@ -168,35 +196,29 @@ Progressed internally from backend engineering into data — taking ownership of
 
 ## 📊 GitHub Analytics
 
-<div align="center">
-
 ![GitHub Stats](https://github-readme-stats.shion.dev/api?username=j019&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=j019&theme=dark&hide_border=false)
 
 ![Top Languages](https://github-readme-stats.shion.dev/api/top-langs/?username=j019&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-</div>
+---
+
+## 🏅 GitHub Trophies
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=j019&theme=darkhub&no-frame=false&no-bg=true&margin-w=4)
 
 ---
 
 ## 📈 Contribution Activity
 
-<div align="center">
-
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=j019&theme=react-dark&bg_color=0d1117&color=7C3AED&line=6D28D9&point=ffffff&area=true&hide_border=true)
-
-</div>
 
 ---
 
 ## 🐍 Contribution Snake
 
-<div align="center">
-
 ![Snake Animation](https://raw.githubusercontent.com/j019/j019/output/github-contribution-grid-snake-dark.svg)
-
-</div>
 
 ---
 
@@ -229,21 +251,13 @@ open_to:
 
 ## 🤝 Connect
 
-<div align="center">
-
 [![Gmail](https://img.shields.io/badge/Gmail-20jatinvalecha%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:20jatinvalecha@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jatin--valecha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jatin-valecha)
 [![GitHub](https://img.shields.io/badge/GitHub-j019-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/j019)
 [![Portfolio](https://img.shields.io/badge/Portfolio-jatinvalecha.netlify.app-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://jatinvalecha.netlify.app/)
 
-</div>
-
 ---
-
-<div align="center">
 
 *"Good data engineering is invisible — the pipeline runs, the numbers are right, and nobody has to ask why."*
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer)
-
-</div>
