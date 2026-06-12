@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jatin Valecha — Data Engineer
+Title: Jatin Valecha - Data Engineer
 ---
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Jatin%20Valecha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%E2%80%A2%20Analytics%20Engineer%20%E2%80%A2%20AI%20Data%20Pipelines&descAlignY=58&descSize=18)
@@ -32,7 +32,7 @@ location     : Pune, India (Open to Relocate)
 background   : Software Engineer → Associate Data Analyst → Data Engineering
 ```
 
-Data Engineer with 3.5 years of progressive experience designing ETL pipelines, building analytical reporting systems, and delivering backend services at scale. Began as a Software Engineer (Java, Spring Boot) and transitioned into data engineering — bringing a strong software engineering foundation to pipeline reliability, SQL optimisation, and data quality.
+Data Engineer with 3.5 years of progressive experience designing ETL pipelines, building analytical reporting systems, and delivering backend services at scale. Began as a Software Engineer (Java, Spring Boot) and transitioned into data engineering - bringing a strong software engineering foundation to pipeline reliability, SQL optimisation, and data quality.
 
 Hands-on with **Python**, **PySpark**, **Apache Kafka**, **Apache Airflow**, **Spark Structured Streaming**, and **HDFS**. Certified in Oracle Cloud (Generative AI & Data Science), with practical experience in RAG architectures and LangChain. Building a public data engineering portfolio and sharing progress on LinkedIn.
 
@@ -93,51 +93,11 @@ Hands-on with **Python**, **PySpark**, **Apache Kafka**, **Apache Airflow**, **S
 |---|---|---|
 | RAG Architectures | ████████░░ Advanced | LangChain, vector search, document retrieval pipelines |
 | LLM / Generative AI | ███████░░░ Proficient | Oracle OCI GenAI, prompt engineering, AI-data integrations |
-| Oracle AI Vector Search | ████████░░ Advanced | Certified — semantic search, embedding pipelines |
-| Exploratory Data Analysis | █████████░ Expert | Pandas, NumPy, Matplotlib — anomaly detection, trend surfacing |
+| Oracle AI Vector Search | ████████░░ Advanced | Certified - semantic search, embedding pipelines |
+| Exploratory Data Analysis | █████████░ Expert | Pandas, NumPy, Matplotlib - anomaly detection, trend surfacing |
 | ML Foundations | ██████░░░░ Working | scikit-learn, SciPy; applied to analytics & forecasting tasks |
 | Data Warehousing | █████████░ Expert | Star/snowflake schemas, data marts, ETL design patterns |
 | Stream Processing | ████████░░ Advanced | Spark Structured Streaming, Kafka consumer/producer pipelines |
-
----
-
-## 🚀 Featured Projects
-
-<details>
-<summary><b>📊 Sales & Operations Analytics Dashboard</b></summary>
-
-End-to-end analytics platform ingesting multi-source operational data, modelling it into a reporting data mart, and surfacing KPIs through interactive Power BI dashboards.
-
-| Attribute | Detail |
-|---|---|
-| **Stack** | Python (Pandas, NumPy, Matplotlib) · SQL · Power BI · Oracle Cloud (OCI) |
-| **Scale** | Multi-system ingestion; 12-month rolling KPI computation |
-| **Performance** | Automated weekly reconciliation; reduced manual reporting cycles |
-| **Data Quality** | Discrepancy flagging between source systems; lineage documentation |
-| **Impact** | Seasonal demand patterns and revenue anomalies surfaced into planning decisions |
-| **Repository** | [github.com/j019](https://github.com/j019) |
-
-Built ETL pipelines to extract from relational databases, cleanse inconsistencies, and load structured output into a reporting mart. Authored SQL with window functions and CTEs to compute rolling KPIs. Performed EDA using Python to identify data anomalies and seasonal demand patterns. Automated a weekly reconciliation report that flagged discrepancies between source systems.
-
-</details>
-
-<details>
-<summary><b>📋 Advertisement Review System — Reged Trax</b></summary>
-
-A production-grade content review platform managing multi-media publication workflows across audio, video, text, and image assets.
-
-| Attribute | Detail |
-|---|---|
-| **Stack** | Java · Spring Boot · REST APIs · SQL · Agile |
-| **Scale** | Multi-format asset management across full publication workflows |
-| **Performance** | 30% reduction in audit response times; 99.9% uptime in production |
-| **Automation** | 40% reduction in manual verification effort via configurable rule engines |
-| **Impact** | Streamlined content compliance operations at enterprise scale |
-| **Repository** | [github.com/j019](https://github.com/j019) |
-
-Developed a content review platform managing audio, video, text, and image assets. Engineered configurable audit workflows and rule engines that cut manual verification effort by 40% and reduced audit response times by 30%. Maintained 99.9% uptime through disciplined Agile sprint management.
-
-</details>
 
 ---
 
@@ -146,7 +106,7 @@ Developed a content review platform managing audio, video, text, and image asset
 ### Software Engineer → Associate Data Analyst
 **Infinite Computer Solutions** · Noida, India · Jun 2022 – Oct 2025 · 3.5 Years
 
-Progressed internally from backend engineering into data — taking ownership of ETL pipelines, analytical dashboards, and data quality processes while retaining strong software engineering instincts.
+Progressed internally from backend engineering into data - taking ownership of ETL pipelines, analytical dashboards, and data quality processes while retaining strong software engineering instincts.
 
 **Software Engineer** *(Jun 2022 – Nov 2024)*
 - Designed and shipped production-grade applications using Java and Spring Boot
@@ -204,12 +164,6 @@ Progressed internally from backend engineering into data — taking ownership of
 
 ---
 
-## 🏅 GitHub Trophies
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=j019&theme=darkhub&no-frame=false&no-bg=true&margin-w=4)
-
----
-
 ## 📈 Contribution Activity
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=j019&theme=react-dark&bg_color=0d1117&color=7C3AED&line=6D28D9&point=ffffff&area=true&hide_border=true)
@@ -258,6 +212,6 @@ open_to:
 
 ---
 
-*"Good data engineering is invisible — the pipeline runs, the numbers are right, and nobody has to ask why."*
+*"Good data engineering is invisible - the pipeline runs, the numbers are right, and nobody has to ask why."*
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer)
