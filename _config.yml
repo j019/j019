@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 kramdown:
   input: GFM
-  hard_wrap: false
+safe: false
