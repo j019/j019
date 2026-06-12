@@ -177,16 +177,6 @@ Progressed internally from backend engineering into data — taking ownership of
 
 ---
 
-## 🏅 GitHub Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=j019&theme=darkhub&no-frame=false&no-bg=true&margin-w=4)
-
-</div>
-
----
-
 ## 📈 Contribution Activity
 
 <div align="center">
