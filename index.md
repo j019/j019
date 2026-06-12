@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <div align="center">
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Jatin%20Valecha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%E2%80%A2%20Analytics%20Engineer%20%E2%80%A2%20AI%20Data%20Pipelines&descAlignY=58&descSize=18)
