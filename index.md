@@ -208,7 +208,7 @@ open_to:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jatin--valecha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jatin-valecha)
 [![GitHub](https://img.shields.io/badge/GitHub-j019-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/j019)
 [![Portfolio](https://img.shields.io/badge/Portfolio-jatinvalecha.netlify.app-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://jatinvalecha.netlify.app/)
-(https://j019-github-io.onrender.com/)
+[![Profile]](https://j019-github-io.onrender.com/)
 
 ---
 
