@@ -180,7 +180,7 @@ Progressed internally from backend engineering into data - taking ownership of E
 
 ```yaml
 learning:
-  - Apache Kakfa for stream processing
+  - Apache Kafka for stream processing
   - Delta Lake and data lakehouse architectures
 
 building:
