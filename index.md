@@ -108,13 +108,13 @@ Hands-on with **Python**, **PySpark**, **Apache Kafka**, **Apache Airflow**, **S
 
 Progressed internally from backend engineering into data - taking ownership of ETL pipelines, analytical dashboards, and data quality processes while retaining strong software engineering instincts.
 
-**Software Engineer** *(Jun 2022 – Nov 2024)*
+**Software Engineer** *(Jun 2022 – Apr 2025)*
 - Designed and shipped production-grade applications using Java and Spring Boot
 - Cut SQL query response times by **30%** through indexing strategies and execution plan analysis
 - Raised unit test coverage by **35%** by introducing structured JUnit test suites
 - Collaborated with product, QA, and DevOps teams across all SDLC phases
 
-**Associate Data Analyst** *(Dec 2024 – Oct 2025)*
+**Associate Data Analyst** *(May 2025 – Oct 2025)*
 - Architected and maintained end-to-end ETL pipelines ingesting data into a centralised data warehouse
 - Wrote advanced SQL (window functions, CTEs, multi-level joins) to model large datasets for business reports
 - Built **Power BI dashboards** enabling stakeholder self-serve KPI monitoring
