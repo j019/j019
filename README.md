@@ -9,6 +9,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-jatinvalecha.netlify.app-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://jatinvalecha.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jatin--valecha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jatin-valecha)
 [![Email](https://img.shields.io/badge/Gmail-20jatinvalecha%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:20jatinvalecha@gmail.com)
+[![Profile](https://img.shields.io/badge/Profile-jatin-ai-portfolio.vercel.app-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://jatin-ai-portfolio.vercel.app/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=j019&style=flat-square&color=7C3AED&label=Profile+Views)
 ![Followers](https://img.shields.io/github/followers/j019?style=flat-square&color=6D28D9&label=Followers)
