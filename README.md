@@ -1,8 +1,3 @@
----
-layout: default
-Title: Jatin Valecha - Data Engineer
----
-
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Jatin%20Valecha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%E2%80%A2%20Analytics%20Engineer%20%E2%80%A2%20AI%20Data%20Pipelines&descAlignY=58&descSize=18)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=800&color=7C3AED&center=true&vCenter=true&multiline=false&width=700&lines=Designing+pipelines+that+make+data+trustworthy.;3.5%2B+years+across+backend+engineering+%26+data.;PySpark+%7C+Kafka+%7C+Airflow+%7C+Oracle+Cloud+%7C+Power+BI.;Building+in+public+%E2%80%94+one+commit+at+a+time.)](https://git.io/typing-svg)
